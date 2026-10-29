@@ -1,0 +1,30 @@
+/* Outlive Nutrition | Aviso de Privacidade (usa tokens e fontes do style.css) */
+body { background: var(--white); color: var(--navy); }
+
+.legal-header { background: var(--navy); color: var(--white); padding: 32px 20px 36px; }
+.legal-header__inner { max-width: 960px; margin: 0 auto; }
+.legal-header__logo { width: 130px; margin-bottom: 22px; }
+.legal-title { margin: 0; font-family: var(--font-head); font-weight: 800; font-size: clamp(24px, 5vw, 38px); line-height: 1.08; text-transform: uppercase; }
+
+.legal-content { padding: 44px 20px 64px; }
+.legal-content .container { max-width: 960px; margin: 0 auto; }
+.legal-content section { margin-bottom: 36px; }
+.legal-content h2 { margin: 0 0 14px; font-family: var(--font-head); font-weight: 700; font-size: clamp(19px, 3.4vw, 25px); line-height: 1.2; color: var(--navy); }
+.legal-content h2::before { content: ""; display: block; width: 36px; height: 4px; margin-bottom: 12px; background: var(--orange); }
+.legal-content p { margin: 0 0 14px; font-size: 16px; line-height: 1.6; color: var(--navy); }
+.legal-content a { color: #2A7FB2; word-break: break-word; }
+.legal-content a:hover { text-decoration: none; }
+
+.legal-table { display: grid; grid-template-columns: repeat(3, 1fr); margin: 8px 0 20px; border: 1px solid var(--navy); border-radius: 8px; overflow: hidden; }
+.legal-table__item { padding: 16px 18px; }
+.legal-table__item + .legal-table__item { border-left: 1px solid var(--navy); }
+.legal-table__item p { margin: 0; }
+.legal-table__label { margin-bottom: 6px !important; font-weight: 700; font-size: 13px !important; text-transform: uppercase; letter-spacing: .04em; color: #2A7FB2 !important; }
+
+.legal-content .btn-cta--inline { width: 100%; max-width: 280px; margin: 24px 0 0; height: 48px; font-size: 16px; background: var(--navy); color: var(--white); }
+.legal-content .btn-cta--inline:hover { background: var(--orange); color: var(--navy); }
+
+@media (max-width: 640px) {
+  .legal-table { grid-template-columns: 1fr; }
+  .legal-table__item + .legal-table__item { border-left: 0; border-top: 1px solid var(--navy); }
+}

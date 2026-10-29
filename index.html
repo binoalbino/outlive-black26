@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outlive Nutrition | Black 2026 | Grupo VIP</title>
+<meta name="description" content="Esquenta Black Outlive: 30% OFF no 1º mês da assinatura, de 04/11 a 22/11. Entre no Grupo VIP e fique com o desconto nunca antes visto.">
+<meta name="theme-color" content="#0B233B">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+<div class="topbar">
+  <p><strong>ESQUENTA BLACK</strong> <span class="topbar__dot"></span> 30% OFF no 1º mês da assinatura <span class="topbar__dot"></span> de 04/11 a 22/11</p>
+</div>
+
+<header class="hero" id="top">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <img src="assets/outlive-logo-white.png" alt="Outlive" class="logo" width="700" height="146">
+
+      <p class="eyebrow">Black Friday 2026</p>
+      <h1 class="hero__title">
+        O desconto nunca antes visto
+        <span class="hero__title-hl">é só para o Grupo VIP.</span>
+      </h1>
+
+      <p class="hero__lead">
+        A Black da Outlive acontece toda na assinatura. Cadastre-se para ficar por dentro de tudo e receber ofertas exclusivas. Quem não estiver no grupo não vê.
+      </p>
+
+      <div class="hero__img-mobile">
+        <img src="assets/hero-mobile.webp" alt="Outlive Daily Health, sabor limão siciliano, 300 g" width="1000" height="1000">
+      </div>
+
+      <div class="countdown" id="countdown" aria-live="off">
+        <p class="countdown__label" id="countdown-label">O Esquenta Black começa em</p>
+        <div class="countdown__grid">
+          <div><span id="cd-d">00</span><small>dias</small></div>
+          <div><span id="cd-h">00</span><small>horas</small></div>
+          <div><span id="cd-m">00</span><small>min</small></div>
+          <div><span id="cd-s">00</span><small>seg</small></div>
+        </div>
+      </div>
+
+      <form class="vip-form" id="vip-form" novalidate>
+        <p class="vip-form__title">Quero entrar no Grupo VIP</p>
+        <div class="field">
+          <input type="text" id="name" name="name" placeholder="Digite seu nome" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <input type="tel" id="whatsapp" name="whatsapp" placeholder="Seu WhatsApp com DDD" autocomplete="tel" inputmode="tel" required>
+        </div>
+
+        <button type="submit" class="btn-cta" id="submit-btn">
+          <span class="btn-cta__label">ENTRAR NO GRUPO VIP</span>
+        </button>
+
+        <p class="form__note">Cadastro até 22/11. Seus dados estão seguros e o acesso chega no seu WhatsApp e e-mail.</p>
+
+        <label class="consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span class="consent__box" aria-hidden="true"></span>
+          <span>Eu dou o meu consentimento para o uso dos meus dados pessoais</span>
+        </label>
+
+        <a href="politica-privacidade.html" class="privacy-link">Fique por dentro das nossas informações de privacidade e proteção de dados</a>
+
+        <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="success" id="success" hidden>
+        <p class="success__tag">Cadastro confirmado</p>
+        <h2>Você está na lista VIP.</h2>
+        <p id="success-text">Em instantes você recebe o acesso ao Grupo VIP no seu WhatsApp e e-mail. Fica de olho: o desconto nunca antes visto vai primeiro para o grupo.</p>
+        <a href="#" class="btn-cta btn-cta--orange" id="success-btn" hidden>ENTRAR NO GRUPO AGORA</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Duas formas de entrar na Black -->
+  <section class="offers">
+    <div class="wrap">
+      <p class="kicker">Como funciona a Black Outlive</p>
+      <h2 class="h2">Duas ofertas rodando ao mesmo tempo. Uma delas é só para o grupo.</h2>
+
+      <div class="offers__grid">
+        <article class="card card--esquenta">
+          <span class="card__badge">Esquenta Black</span>
+          <p class="card__big">30<small>%</small> <em>OFF</em></p>
+          <h3>No 1º mês da assinatura</h3>
+          <p>Comece a rotina Outlive com 30% de desconto no primeiro mês. A Black da Outlive é vendida toda na assinatura.</p>
+          <p class="card__date">De 04/11 a 22/11</p>
+        </article>
+
+        <article class="card card--vip">
+          <span class="card__badge card__badge--orange">Grupo VIP</span>
+          <p class="card__big card__big--text">Nunca<br>antes visto</p>
+          <h3>O desconto que ninguém viu</h3>
+          <p>Só quem estiver no Grupo VIP terá benefícios exclusivos. A captação roda em paralelo ao Esquenta e fecha junto com ele.</p>
+          <p class="card__date">Cadastro até 22/11</p>
+        </article>
+      </div>
+
+      <a href="#top" class="btn-cta btn-cta--orange btn-cta--inline" data-scroll-to="name">QUERO ENTRAR NO GRUPO VIP</a>
+    </div>
+  </section>
+
+  <!-- Assinatura -->
+  <section class="sub">
+    <div class="wrap sub__inner">
+      <div class="sub__img">
+        <img src="assets/kit.webp" alt="Kit Outlive com lata, mixer, medidor e Daily Health sabor limão siciliano" width="1600" height="1073" loading="lazy">
+      </div>
+      <div class="sub__text">
+        <p class="kicker kicker--orange">Black na assinatura</p>
+        <h2 class="h2 h2--light">Daily Health todo mês. Do jeito mais fácil de manter.</h2>
+        <p>Cada pacote traz 30 doses de ingredientes essenciais para a saúde, em sabor limão siciliano. Você mistura, bebe e segue o dia.</p>
+        <p>Na Black, a assinatura é o caminho: você garante o seu Daily Health no preço de Black e não precisa lembrar de recomprar.</p>
+        <ul class="ticks">
+          <li>30% OFF no 1º mês durante o Esquenta Black</li>
+          <li>Oferta nunca antes vista reservada ao Grupo VIP</li>
+          <li>Whole body nutrition em uma só dose por dia</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios do grupo -->
+  <section class="perks">
+    <div class="wrap">
+      <p class="kicker">Por que entrar no grupo</p>
+      <h2 class="h2">Não é só um grupo. É a fila da frente da Black.</h2>
+
+      <div class="perks__grid">
+        <div class="perk">
+          <span class="perk__n">01</span>
+          <h3>Desconto nunca antes visto</h3>
+          <p>A condição mais forte da Black Outlive fica dentro do grupo. Fora dele, ela não aparece.</p>
+        </div>
+        <div class="perk">
+          <span class="perk__n">02</span>
+          <h3>Ofertas exclusivas</h3>
+          <p>Benefícios que só os membros recebem, direto no WhatsApp e no e-mail.</p>
+        </div>
+        <div class="perk">
+          <span class="perk__n">03</span>
+          <h3>Tudo em primeira mão</h3>
+          <p>Você fica por dentro de cada passo da Black antes do resto da lista.</p>
+        </div>
+        <div class="perk">
+          <span class="perk__n">04</span>
+          <h3>Sem mensagem aleatória</h3>
+          <p>Só chega o que importa: datas, condições e avisos da campanha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Linha do tempo -->
+  <section class="timeline">
+    <div class="wrap">
+      <p class="kicker kicker--orange">Calendário</p>
+      <h2 class="h2 h2--light">Anota aí. O prazo é curto.</h2>
+
+      <ol class="steps">
+        <li>
+          <span class="steps__date">04/11</span>
+          <h3>Esquenta Black abre</h3>
+          <p>30% OFF no 1º mês da assinatura.</p>
+        </li>
+        <li>
+          <span class="steps__date">22/11</span>
+          <h3>Último dia</h3>
+          <p>Fim do Esquenta Black e do cadastro no Grupo VIP.</p>
+        </li>
+        <li>
+          <span class="steps__date steps__date--orange">Black</span>
+          <h3>Desconto nunca antes visto</h3>
+          <p>Reservado para quem está dentro do Grupo VIP.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="final">
+    <div class="final__img">
+      <img src="assets/lifestyle.webp" alt="Mulher bebendo Outlive em meio à natureza" width="1400" height="934" loading="lazy">
+    </div>
+    <div class="final__text">
+      <p class="kicker kicker--orange">Live better. Live longer.</p>
+      <h2 class="h2 h2--light">Quem entra agora não corre atrás da Black. Ela chega até você.</h2>
+      <p>Cadastro aberto até 22/11. Leva menos de um minuto.</p>
+      <a href="#top" class="btn-cta btn-cta--orange btn-cta--inline" data-scroll-to="name">ENTRAR NO GRUPO VIP</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer__inner">
+    <img src="assets/outlive-logo-white.png" alt="Outlive" class="logo logo--footer" width="700" height="146">
+    <nav class="footer__links">
+      <a href="https://outlivenutrition.com.br" target="_blank" rel="noopener">outlivenutrition.com.br</a>
+      <a href="politica-privacidade.html">Política de Privacidade</a>
+      <a href="politica-privacidade.html">Termos de Uso</a>
+    </nav>
+    <a href="#top" class="back-to-top">Voltar para o topo <span aria-hidden="true">&uarr;</span></a>
+  </div>
+  <p class="footer__legal">Esquenta Black: 30% de desconto válido apenas no 1º mês da assinatura, de 04/11 a 22/11. Condições do Grupo VIP divulgadas exclusivamente aos membros. Suplemento alimentar não é medicamento.</p>
+</footer>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>
