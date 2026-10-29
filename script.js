@@ -3,9 +3,8 @@
 
   var WEBHOOK_URL = 'https://n8n.lamarketing.com.br/webhook/outlivenutrition-black-2026';
 
-  // Link do Grupo VIP do WhatsApp. Cole aqui quando o grupo estiver criado.
-  // Enquanto estiver vazio, a página só confirma o cadastro (sem redirecionar).
-  var WHATSAPP_GROUP_URL = '';
+  // Para onde a pessoa vai depois do cadastro (Grupo VIP). Para trocar o destino, altere só esta linha.
+  var WHATSAPP_GROUP_URL = 'https://cockpit.linqer.com.br/g/outlive-vip';
 
   // Datas do Esquenta Black (horário de Brasília, UTC-03:00)
   var START = new Date('2026-11-04T00:00:00-03:00').getTime();
